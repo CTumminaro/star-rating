@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="star-rating.css">
+</head>
+<body>
+  <h1>Smooth Star Rating</h1>
+
+  <p><div class="star-rating -small" data-rating="3.25"></div></p>
+  <p><div class="star-rating" data-rating="3.33"></div></p>
+  <p><div class="star-rating -large" data-rating="3.8"></div></p>
+  <p><div class="star-rating -x-large" data-rating="4.56"></div></p>
+
+  <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="star-rating-1.0.0.js"></script>
+  <script>
+    $(function() {
+      $('.star-rating').starRating({ });
+    });
+  </script>
+</body>
+</html>
