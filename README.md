@@ -3,6 +3,8 @@ Smooth Star Rating
 
 A lightweight jQuery plugin for star ratings. Number of stars can be configured or cutout shape can be modified in CSS.
 
+[Demo](https://ctumminaro.github.io/star-rating/build/jquery/)
+
 Usage
 -----
 
